@@ -1,0 +1,86 @@
+EXECUTIVE OFFICE OF THE PRESIDENT
+OFFlCEOFMANAGEMENTANDBUDGET
+WASHINGTON, D.C. 20503
+T HE DIRECTOR
+
+April 3, 2025
+
+M-25-21
+
+MEMORANDUM FOR THE HEADS OF EXECUTIVE DEPARTMENTS AND AGENCIES
+
+SUBJECT: Accelerating Federal Use of AI through Innovation, Governance, and Public Trust
+
+[...]
+
+3. IMPROVING AI GOVERNANCE
+
+Effective AI governance is key to accelerated innovation as it empowers professionals at all levels to align processes, establish clear policies, and foster accountability while reducing unnecessary barriers to AI adoption. To that end, agencies must identify key officials to lead agency AI adoption and promote the sharing of best practices, empowering the entire Federal workforce to leverage AI in fulfilling their mission. Consistent with these goals, agencies must undertake the following:
+
+a. Agency Governance Roles and Bodies
+
+Consistent with agency policies, the Federal workforce is encouraged to embrace AI adoption at all levels of the Federal Government and to use AI for innovation and increased efficiency. To support this adoption and use, senior agency leaders must effectively distribute responsibilities and accountability, collaborating with agency officials in AI and AI-enabling roles. In support of these objectives and consistent with Executive Order 13960 and Executive Order 14179, agency heads are responsible for establishing the following:
+
+1. Chief AI Officers. Within 60 days of the issuance of this memorandum, the head of each agency must retain or designate a Chief AI Officer (CAIO). CAI Os will promote AI innovation, adoption, and governance, in coordination with appropriate agency officials. Agency heads may choose to designate an existing official, such as a Chief Information Officer, Chief Data Officer, Chief Technology Officer, or similar official with relevant or complementary authorities and responsibilities, provided that individual has significant expertise in AI.
+
+For CFO Act agencies, the CAIO must hold a position at the Senior Executive Service, Scientific and Professional, or Senior Leader level, or equivalent. For other agencies, the CAIO must be at or above Grade 14 of the General Schedule (GS), or the equivalent for agencies that do not use the GS classification system. CAIOs must have the necessary authority to perform the responsibilities in this section and must be positioned highly enough to engage regularly with other agency leadership, to include the Deputy Secretary or equivalent. Agencies must notify 0MB within 30 days when the designated CAIO changes or the position is vacant. CAI Os, in coordination with appropriate agency officials, must:
+
+A. promote agency-wide responsible AI innovation and adoption in accordance with this memorandum through a governance and oversight process;
+
+B. coordinate with other responsible agency officials to ensure that the agency's use of AI complies with applicable law and govemmentwide guidance;
+
+C. serve as the senior advisor on AI to the head of the agency and within their agency's executive decision-making forums;
+
+D. represent their agency in and collaborate with coordination bodies related to their agency's AI activities, including external forums such as AI-related councils, standard-setting bodies, relevant governance boards, or international bodies;
+
+E. maintain the agency's AI Use Case Inventory;20
+
+F. ensure processes are in place for the agency's high-impact AI use, consistent with Section 4 of this memorandum, by:
+
+1. establishing a process for determining and documenting AI use cases as high-impact;
+
+2. establishing processes to measure, monitor, and evaluate the ongoing performance and effectiveness of the agency's high-impact AI applications;
+
+3. overseeing agency compliance with requirements to manage risks from the use of AI, including those established in this memorandum and in relevant law and policy;
+
+4. establishing a process for an independent review of high-impact use cases before risk acceptance, consistent with Section 4;
+
+5. centrally tracking high-impact use cases and use case determinations;
+
+G. advise on the transformation of the agency's workforce into an AI-ready workforce;
+
+H. ensure that custom-developed AI code and the data used to develop and test AI are appropriately inventoried, shared, and released in agency code and data repositories, in coordination with their agency's relevant officials;
+
+I. provide guidance on AI investments to the agency head and agency CFO related to resourcing requirements necessary to implement this memorandum; and
+
+J. support agency efforts to track AI spending.
+
+11. Agency AI Governance Board. Within 90 days of the issuance of this memorandum, each CFO Act agency must convene its relevant agency officials to coordinate and govern issues related to the use of AI within the Executive Branch. Agencies are permitted to rely on existing governance bodies to fulfill this requirement. Agencies are responsible for ensuring that agency AI governance boards:
+
+A. include a chair, at the Deputy Secretary level or equivalent, and a vice-chair who is the agency CAIO. Working through this Board, CAIOs will support their respective Deputy Secretaries in coordinating agency AI activities;
+
+B. include appropriate representation from key stakeholder offices or components, including those responsible for addressing IT, cybersecurity, data, budget, statistics, legal counsel, privacy, civil rights, and civil liberties. When relevant, AI governance boards must include representatives from the following disciplines: agency management, human capital, procurement, customer experience, program evaluation, and officials responsible for implementing AI within an agency's program office(s); and
+
+C. consult external experts, as needed and appropriate, to broaden the perspective of the designated governance board and to integrate sector-specific expertise, including recommendations on innovative agency AI use cases.
+
+b. Agency Governance Responsibilities
+
+Agencies must enable responsible AI governance and ensure innovative and appropriate use of AI agency-wide. Agency heads must:
+
+1. Empower Agency AI Leaders. Agencies must enable trained and accountable agency officials at the lowest appropriate level21 to identify, assess, mitigate, and accept risk for AI use cases.22
+
+11. Develop Compliance Plans. Consistent with Section 104( c) and ( d) of the AI in Government Act of 2020, within 180 days of the issuance of this memorandum or any update to this memorandum, and every two years thereafter until 2036, each agency must submit to 0MB and post publicly on the agency's website either a plan to achieve consistency with this memorandum, or a written determination that the agency does not use and does not anticipate using covered AL Agencies must also include plans to update any existing internal AI principles and guidelines to ensure consistency with this memorandum.23 0MB will provide templates for these compliance plans.
+
+m. Update Agency Policies. Within 270 days of the issuance of this memorandum, agencies must revisit and update where necessary their internal policies on IT infrastructure ( e.g., software tools, use of open source software, libraries, and code for AI development, software deployment and platform modernization), data (e.g., data inventory; making quality data available for use by AI; lawful access to agency data, third-party data, and publicly available data, where appropriate; representativeness), cybersecurity (e.g., information system authorizations, continuous monitoring, continuous authorizations for Al), and privacy to align with this memorandum, Executive Order 14179, Executive Order 13960, and with applicable law. Agency policies should aim to advance using models that are built with less data, require less compute, and are inherently more explainable, where possible.
+
+1v. Develop Generative AI Policy. Within 270 days ofthe issuance of this memorandum, agencies should develop a policy that sets the terms for acceptable use of generative AI for their missions and establishes adequate safeguards and oversight mechanisms that allow generative AI to be used in the agency without posing undue risk.
+
+v. Update AI Use Case Inventories. Each agency (except for the Department of Defense and the Intelligence Community) must inventory its AI use cases at least annually, submit the inventory to 0MB, and post a public version on the agency's website. Agencies are encouraged to update the public versions of their inventories on an ongoing basis to reflect their current use of AI. 0MB will issue detailed instructions to agencies regarding the inventory and its scope.
+
+20 As required by Pub. L. No. 117-263, div. G, title LXXII, subtitle B, § 7225 (codified at 40 U.S.C. 11301 note), https://www.congress.gov/l l 7/plaws/publ263/PLAW-l l 7publ263.pdf.
+
+21 Agencies are encouraged to assign these responsibilities to agency officials who are accountable for the misS:ion outcome of the AI use case.
+
+22 The process for reviewing and accepting risk for AI use cases is separate from, and does not supersede, the authorization process for information systems, consistent with 0MB Circular No. A-130, Managing Information as a Strategic Resource, https:/ /bidenwhitehouse.archives.gov/wp-content/uploads/legacy drupal files/omb/circulars/ A 130/a 130revised.pdf.
+
+23 Given the importance of context-specific guidance on AI, agencies are encouraged to continue implementing their agency's AI principles and guidelines, so long as they do not conflict with this memorandum.

@@ -1,0 +1,29 @@
+Regulation (EU) 2024/1689 (Artificial Intelligence Act), OJ L, 12.7.2024, official English version, CELEX 32024R1689. Articles 4, 9(1) to 9(2), 17(1) and 26(1) to 26(2). Reuse under Commission Decision 2011/833/EU. Everything below the rule is the Regulation's wording; changes are listed in NOTICES.md.
+----
+Article 4
+AI literacy
+Providers and deployers of AI systems shall take measures to ensure, to their best extent, a sufficient level of AI literacy of their staff and other persons dealing with the operation and use of AI systems on their behalf, taking into account their technical knowledge, experience, education and training and the context the AI systems are to be used in, and considering the persons or groups of persons on whom the AI systems are to be used.
+Article 9
+Risk management system
+1. A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.
+2. The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating. It shall comprise the following steps: [...]
+Article 17
+Quality management system
+1. Providers of high-risk AI systems shall put a quality management system in place that ensures compliance with this Regulation. That system shall be documented in a systematic and orderly manner in the form of written policies, procedures and instructions, and shall include at least the following aspects:
+(a) a strategy for regulatory compliance, including compliance with conformity assessment procedures and procedures for the management of modifications to the high-risk AI system;
+(b) techniques, procedures and systematic actions to be used for the design, design control and design verification of the high-risk AI system;
+(c) techniques, procedures and systematic actions to be used for the development, quality control and quality assurance of the high-risk AI system;
+(d) examination, test and validation procedures to be carried out before, during and after the development of the high-risk AI system, and the frequency with which they have to be carried out;
+(e) technical specifications, including standards, to be applied and, where the relevant harmonised standards are not applied in full or do not cover all of the relevant requirements set out in Section 2, the means to be used to ensure that the high-risk AI system complies with those requirements;
+(f) systems and procedures for data management, including data acquisition, data collection, data analysis, data labelling, data storage, data filtration, data mining, data aggregation, data retention and any other operation regarding the data that is performed before and for the purpose of the placing on the market or the putting into service of high-risk AI systems;
+(g) the risk management system referred to in Article 9;
+(h) the setting-up, implementation and maintenance of a post-market monitoring system, in accordance with Article 72;
+(i) procedures related to the reporting of a serious incident in accordance with Article 73;
+(j) the handling of communication with national competent authorities, other relevant authorities, including those providing or supporting the access to data, notified bodies, other operators, customers or other interested parties;
+(k) systems and procedures for record-keeping of all relevant documentation and information;
+(l) resource management, including security-of-supply related measures;
+(m) an accountability framework setting out the responsibilities of the management and other staff with regard to all the aspects listed in this paragraph.
+Article 26
+Obligations of deployers of high-risk AI systems
+1. Deployers of high-risk AI systems shall take appropriate technical and organisational measures to ensure they use such systems in accordance with the instructions for use accompanying the systems, pursuant to paragraphs 3 and 6.
+2. Deployers shall assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support.

@@ -1,0 +1,57 @@
+Guidance to civil servants on use of generative AI
+
+This page has been superseded by the Generative AI Framework for HMG
+
+[...]
+
+This guidance outlines the expectation for how civil servants should approach the use of Large Language Models. New tools are emerging all the time. If civil servants see something that they think has potential to improve our work in government then please contact cddo@digital.cabinet-office.gov.uk.
+
+## Summary of guidance:
+
+Never put sensitive information or personal data into these tools.
+
+- With appropriate care and consideration generative AI can be helpful and assist with your work. However, you should be cautious and circumspect in your approach, noting the guidance provided here.
+
+- You should never input information that is classified, sensitive or reveals the intent of government (that may not be in the public domain) into any of these tools. You should have regard to the principles of GDPR.
+
+- Output from generative AI is susceptible to bias and misinformation, they need to be checked and cited appropriately.
+
+This guidance will be subject to a review after six months, to address emerging practices and better understanding of the use cases for this technology.
+
+This guidance covers general principles for civil servants, how these apply to use of LLMs, the practicalities of using LLMs, and the government’s wider approach to generative AI.
+
+As with all digital systems, users are responsible for their own actions when using such tools and are reminded of their obligations under GDPR.
+
+Examples of how to use and how not to use generative AI in your role are included below.
+
+### General principles for Civil Service working
+
+Civil servants should be inquisitive about new technologies, including generative AI tools. However, we should always exercise caution when using and sharing sensitive information or information which contains personal data. This includes being cautious about the sort of information that is entered into LLMs like ChatGPT.
+
+The following general guidance always applies to the systems we use:
+
+- You should always be aware of what information you have access to, what rights and restrictions apply to that information (from either private or government sources) and the conditions under which that information can or should be shared.
+
+- You should always be mindful of any systems into which you enter information. Does that information need to be entered in that system? What will be done with the information once it has left your possession? What rights are being given away in placing the information elsewhere?
+
+### How this applies to generative AI
+
+Generative AI tools are evolving at pace. We have experience of already using predecessors of this technology in both the government and NHS. However, new products such as the latest version of ChatGPT and Google’s Bard product are a leap forward in publicly available generative AI tools.
+
+We encourage you to explore this technology and consider the implications for your organisations and the services you provide. However, there are some ground rules you should keep in mind.
+
+You should never put sensitive information or personal data into these tools. Beyond existing data protection laws, government has no oversight over how data, which is entered into web-based generative AI tools, is then used. Therefore, you should not put information into generative AI tools that, if compromised or lost, could have damaging consequences for individuals, groups of individuals, an organisation or for government more generally.
+
+When using generative AI, consider the three Hows:
+
+- How your question will be used by the system. These systems learn based on the information you enter. Just as you would not share work documents on social media sites, do not input such material into generative AI tools.
+
+- How answers from generative AI can mislead. These tools can produce credible looking output. They can also offer different responses to the same question if it is posed more than once, and they may derive their answers from sources you would not trust in other contexts. Therefore, be aware of the potential for misinformation from these systems. Always apply the high standards of rigour you would to anything you produce, and reference where you have sourced output from one of these tools.
+
+- How generative AI operates. A generative AI tool, such as a LLM, will answer your question by probabilistically choosing words from a series of options it classifies as plausible. These tools can not understand context or bias. Always treat with caution the outputs these tools produce and challenge the outputs using your own judgement and knowledge.
+
+### Practicalities of using generative AI in your role
+
+- References: Whether using the outputs from generative AI either verbatim or with minor alterations, it is important to make clear to those reading that one of these tools has been used. To do this the tools should be cited in a footnote, with its URL and any sources used as inputs.
+
+- Accounts: When using generative AI for one of the appropriate uses described in this guidance, you can use your gov.uk email address, but be aware of what you are entering (based on the content of this guidance).
