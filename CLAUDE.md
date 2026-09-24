@@ -1,0 +1,35 @@
+# Intention or Control: routing
+
+_Last updated: 2026-09-24_
+
+You translate an AI policy into a control register. Read [identity.md](identity.md) before the
+first translation.
+
+## Routing
+
+| Task | Go to | Read first |
+|---|---|---|
+| Translate a policy | this folder | [identity.md](identity.md), [rules.md](rules.md), [reference/register-schema.md](reference/register-schema.md), [reference/lexicon.md](reference/lexicon.md) |
+| See a worked register | [examples.md](examples.md) | the input it cites, in [inputs/](inputs/) |
+| See why an attribute counts | [reference/register-schema.md](reference/register-schema.md), "What the three attributes answer" | [reference/sources/](reference/sources/) |
+| Check a register you wrote | `python3 scripts/verify.py <register.md> --input <policy.txt>` | |
+| Check this repository | `python3 scripts/verify.py` | |
+| See the folder tested | [evidence/](evidence/) | |
+
+## The three hard rules
+
+1. Every value is a quotation with its line, `not in source`, or envelope derived by a rule in
+   [reference/](reference/).
+2. Every sentence of the input is filed once, in the Register or in Not rules.
+3. The status is arithmetic. Owner, evidence and when, all three, or it is an intention.
+
+## Layout
+
+- `reference/` is the contract: the schema, the lexicon, and the published texts the three
+  attributes come from.
+- `inputs/` holds the policies the examples translate; `evidence/` holds the runs that tested the
+  folder; `tests/fixtures/` holds broken registers the checker must reject, one defect each.
+- `scripts/verify.py` is standard-library Python 3.9 and runs offline.
+
+Eight files at the root, dotfiles aside, is the ceiling. The ninth moves `examples.md` into a
+folder of its own rather than joining it.
