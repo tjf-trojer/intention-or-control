@@ -1,13 +1,14 @@
-# Intention or Control
+# Intention or Control: a translator from AI policy to control register
 
 **Which rules in this AI policy does anyone answer for?**
 
 _Last updated: 2026-09-25_
 
-Give it an AI policy. It gives back a control register: every rule the policy states, quoted with
-its line, and for each rule the owner, the evidence and the moment the policy itself names, or
-`not in source`. A rule with all three is a **control**. A rule missing one is an **intention**.
-It converts and nothing else: it never proposes an owner, never guesses a date, never grades a rule.
+This translator turns an AI policy into a control register. Every rule the policy states is quoted
+with its line, and for each rule the register gives the owner, the evidence and the moment the
+policy itself names, or `not in source`. A rule with all three is a **control**. A rule missing one
+is an **intention**. It translates and nothing else: it never proposes an owner, never guesses a
+date, never grades a rule.
 
 ## Use it
 
