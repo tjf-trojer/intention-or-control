@@ -1,6 +1,6 @@
 # Lexicon: the word lists a register applies
 
-_Last updated: 2026-09-24_
+_Last updated: 2026-09-25_
 
 Three lists. The translator applies them as written and `scripts/verify.py` reads them from this
 file. A list that is wrong for one policy is wrong for all of them, and it changes here.
@@ -60,7 +60,9 @@ class MUST (imperative); `never`, `do not` and `don't` make it MUST NOT (imperat
 quotes the lexicon term where there is one («Never», «Always», «do not»), and otherwise the opening
 verb or verb phrase («be aware», «consider»). An imperative stands at an opening: the start of a
 sentence, after a list marker, or after a comma, semicolon or colon, with at most a joining «and»,
-«but», «or» or «then» between. «Agencies are encouraged to update» holds no imperative. A verb that
+«but», «or» or «then» between. «Agencies are encouraged to update» holds no imperative. A list item
+whose opening verb finishes a lead-in that carries a force term of its own («…should be kept up to
+date with the following details:» + «Describe…») takes the lead-in's force. A verb that
 only points the reader somewhere ("Note that", "See") or asks a favour ("please contact") is not
 an instruction, and its sentence is a statement.
 

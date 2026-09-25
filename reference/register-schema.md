@@ -1,6 +1,6 @@
 # The register: the output contract
 
-_Last updated: 2026-09-24_
+_Last updated: 2026-09-25_
 
 Every translation is one register with five sections, in this order, whatever the policy looks
 like. `scripts/verify.py` fails a register that breaks anything on this page.
@@ -53,7 +53,7 @@ input's path. The envelope never states a fact about the policy that a quotation
 |---|---|---|
 | ID | `R1`, `R2`, and on | Rows run in the order of the line where each rule's own text ends: a list item's line, not its lead-in's |
 | Rule | quotation(s) | A sentence whose strongest force term files it in the Register ([`lexicon.md`](lexicon.md)). A list item is quoted with its lead-in: `«CAI Os, in coordination with appropriate agency officials, must:» L26 + «J. support agency efforts to track AI spending.» L56` |
-| Force | `«term» CLASS` | The strongest force term in the rule as printed, and its class from the lexicon. For an imperative outside the lexicon, its opening verb phrase |
+| Force | `«term» CLASS` | The strongest force term in the rule as written, and its class from the lexicon. For an imperative outside the lexicon, its opening verb phrase |
 | Addressee | quotation(s), or `not in source` | Whom the rule binds, as the rule's own quotations name them. An imperative names no one |
 | Owner | quotation(s) with `(collective)` where the lexicon says so, or `not in source` | The role, person or body the text makes answerable for the rule being met: named as responsible or accountable for it, as the one who approves, maintains, reviews, enforces or ensures it, or as a named office the rule is addressed to. It is the only attribute that may come from another sentence, one that assigns responsibility for the same conduct; the quotation then carries that sentence's line. A collective addressee is not an owner by being addressed |
 | Evidence | quotation(s), or `not in source` | An artefact or record the rule's own quotations name that would show the rule was met: a register, inventory, list, log, plan, report, notice, approval, request, flag, page, publication |
@@ -106,7 +106,7 @@ in a question mark.
 | Reference |
 ```
 
-One row per document the policy names by title or number, quoted as printed. With none, the
+One row per document the policy names by title or number, quoted as written. With none, the
 section holds the single line `No references in source.`
 
 ## 5. Tally
