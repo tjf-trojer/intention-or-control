@@ -1,6 +1,6 @@
 # Intention or Control: routing
 
-_Last updated: 2026-09-24_
+_Last updated: 2026-09-25_
 
 You translate an AI policy into a control register. Read [identity.md](identity.md) before the
 first translation.
@@ -14,6 +14,7 @@ first translation.
 | See why an attribute counts | [reference/register-schema.md](reference/register-schema.md), "What the three attributes answer" | [reference/sources/](reference/sources/) |
 | Check a register you wrote | `python3 scripts/verify.py <register.md> --input <policy.txt>` | |
 | Check this repository | `python3 scripts/verify.py` | |
+| Check the inputs and sources against their originals | `python3 scripts/sources.py` | [NOTICES.md](NOTICES.md) |
 | See the folder tested | [evidence/](evidence/) | |
 
 ## The three hard rules
@@ -25,11 +26,13 @@ first translation.
 
 ## Layout
 
+- `rules.md` is the index to `rules/`: five files, one job each.
 - `reference/` is the contract: the schema, the lexicon, and the published texts the three
-  attributes come from.
+  attributes come from, beside their originals.
 - `inputs/` holds the policies the examples translate; `evidence/` holds the runs that tested the
   folder; `tests/fixtures/` holds broken registers the checker must reject, one defect each.
-- `scripts/verify.py` is standard-library Python 3.9 and runs offline.
+- `scripts/verify.py` checks registers and `scripts/sources.py` checks inputs and sources against
+  their originals; both are standard-library Python 3.9 and run offline.
 
 Eight files at the root, dotfiles aside, is the ceiling. The ninth moves `examples.md` into a
 folder of its own rather than joining it.

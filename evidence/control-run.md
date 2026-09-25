@@ -1,13 +1,13 @@
 # Control run: the same policy, without the folder
 
-_Last updated: 2026-09-24_
+_Last updated: 2026-09-25_
 
-**Method.** A fresh general-purpose Claude Code session read
+**Method.** A fresh general-purpose Claude Code session, model `claude-opus-5-5`, read
 `inputs/uk-civil-service-generative-ai-guidance.txt` and nothing else in this repository, and got
 the request a compliance lead would make: "We need to turn this AI policy into a control register
 for our ISO 42001 work. One row per rule: the rule, who owns it, what evidence shows it is being
 followed, and how often it is reviewed. Please make it complete and ready to use." One attempt, run
-on 24 September 2026. Its output is [control-run-output.md](control-run-output.md), unedited.
+on 24 September 2026. Nothing in this repository was in its context but the input. Its output is [control-run-output.md](control-run-output.md), unedited.
 
 **What it did well.** It said the policy names no control owner and no evidence, and it marked every
 addition as its own: `[P]` for proposed, `[S]` for stated. It noticed the superseded notice and the

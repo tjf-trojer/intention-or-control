@@ -1,6 +1,6 @@
 # Worked registers
 
-_Last updated: 2026-09-24_
+_Last updated: 2026-09-25_
 
 Real policies, translated. Each register cites its input in [`inputs/`](inputs/) by line, and
 `python3 scripts/verify.py` checks every register on this page against its input in its default
@@ -203,8 +203,9 @@ The one control is R7: an office, a record and a trigger, all in one sentence.
 
 # Example 3: OMB Memorandum M-25-21, section 3 (April 3, 2025)
 
-A government mandate, read from an OCR'd PDF. The issuer stays «OFFlCEOFMANAGEMENTANDBUDGET» and the
-budget office stays «0MB»: the register keeps what the page prints. Owners here are named offices
+A government mandate, read from the OCR text layer of a scanned PDF. The page image prints OMB; the
+text layer, and so the input, says «0MB» and «OFFlCEOFMANAGEMENTANDBUDGET», and the register keeps
+what its input says. Owners here are named offices
 («CAI Os», «Agency heads»), and three rules carry a record and a moment as well: the compliance
 plans (R36), the policy update (R40) and the use-case inventory (R43). Where a lead-in says
 «Agency heads must:» and the item's own sentence says «each agency must», the lead-in supplies the
