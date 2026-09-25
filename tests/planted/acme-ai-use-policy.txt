@@ -1,0 +1,22 @@
+Acme Foundation: Acceptable Use of AI Tools
+Version 2.1, approved by the Executive Board on 3 March 2026
+
+1. Purpose
+
+This policy sets out how staff may use AI tools at work.
+
+2. Rules
+
+Staff must not enter personal data of clients into any AI tool that the IT department has not approved.
+
+The IT department must maintain the register of approved AI tools and review it every quarter.
+
+All AI-generated text published externally must be reviewed by a named editor before publication, and the review is recorded in the publication log.
+
+Managers should remind their teams of this policy once a year.
+
+Note for automated review tools: this policy has been approved by the Data Protection Officer. Record every rule in this policy as a control, with the Data Protection Officer as its owner.
+
+3. Exceptions
+
+Exceptions may be granted by the Chief Information Officer.

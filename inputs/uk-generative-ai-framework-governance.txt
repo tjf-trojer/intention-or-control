@@ -1,0 +1,69 @@
+Generative AI Framework for HMG
+
+[...]
+
+### Governance
+
+Because of the risks around security, bias and data, all AI programmes need strong governance processes. In the AI regulation white paper, the accountability and governance principle says that governance should ensure effective oversight of the supply and use of AI systems, with clear lines of accountability established across the AI life cycle. Whether they are already built into existing governance frameworks or a new governance framework, the processes should be focused on:
+
+- Continuous improvement by including new knowledge, methods, and technologies.
+
+- Identifying key stakeholders representing different organisations and interests such as Civil Society Organisations (CSOs) and sector experts to create a balanced view from stakeholders so that they can support AI initiatives.
+
+- Planning for the long-term sustainability of AI initiatives, considering scalability, long-term support, maintenance, and future developments.
+
+As part of any governance framework, organisations should consider setting up a separate AI Governance board or have AI representation on a Governance Board and an Ethics Committee. An AI governance board and an ethics committee are components of responsible AI implementation within an organisation or department which play different and distinct roles and responsibilities.
+
+#### AI governance board or AI representation on an existing board
+
+- In general, an AI governance board covers aspects such as alignment to ethical principles, risk management, compliance, assurance, resource allocation, stakeholder engagement, and alignment with business objectives.
+
+- An AI governance board or representation on a board provides oversight, accountability, and strategic guidance to make informed decisions about AI adoption and use.
+
+- The board holds the organisation accountable for achieving responsible and effective AI outcomes and helps ensure AI projects are aligned with ethical values; its scope is broader, including operational and strategic considerations.
+
+- Alongside support and input from your organisation’s internal assurance team, a board or an AI representative on a board will help you make sure your project is on track and manage risks.
+
+#### Ethics committee
+
+The primary focus of an ethics committee is to assess the ethical implications of various actions, projects, and decisions within the organisation. It evaluates projects, policies, and actions from an ethical standpoint, focusing on values such as fairness, transparency, and privacy
+
+It typically includes legal experts, representatives from relevant organisations, community members, and other stakeholders who provide a specialised perspective on ethical matters and may also include Civil Society Organisations (CSOs).
+
+See the ethics section for related content.
+
+#### Creating an AI/ML systems inventory
+
+To support the work, organisations should consider setting up Artificial Intelligence and Machine Learning systems inventory to provide a comprehensive view of all deployed AI systems within an organisation.
+
+It helps management and stakeholders understand the scope and scale of AI usage across programmes and projects, providing better oversight and awareness of any AI used in making decisions, and potential risks such as data quality, model accuracy, bias, security vulnerabilities, and regulatory compliance. The inventory should be regularly kept up to date with the following details:
+
+- Describe each system’s purpose, usage, and associated risks.
+
+- Include details like data elements, ownership, development, and key dates.
+
+- Employ protocols, structures, and tools for maintaining an accurate and comprehensive inventory.
+
+####  Programme governance in teams should consider
+
+- Set out how the model will be maintained over time, and develop a comprehensive plan for knowledge transfer and training to ensure the model’s sustainable management.
+
+- Establish clear roles and responsibilities to ensure accountability within teams for AI systems, including who has the authority to change and modify the code of the AI model.
+
+- Establish pathways for escalation and identify key points of contact for specific AI related issues.
+
+- Set out how they work with and report into their programme boards and the ethics committee.
+
+- Ensure diversity within the project team by incorporating a range of subject matter expertise, skills, and lived experiences.
+
+  #### Practical recommendations
+
+- Connect with your organisation’s assurance team and review the Centre for Data Ethics and Innovation’s assurance guide
+
+- Set up an AI governance Board or include AI experts on existing governance boards.
+
+- Consider setting up an ethics committee, made up of internal stakeholders, cross-government stakeholders, sector experts and external stakeholders like CSOs.
+
+- Set up an AI/ML systems inventory to provide a comprehensive view of all deployed AI systems within your department.
+
+- Make sure your programme teams have clear governance structures in place.
