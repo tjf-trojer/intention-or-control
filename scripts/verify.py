@@ -9,7 +9,8 @@ text. Eight gates run on each register:
   trace     every quotation is in the input, character for character,
             starting on the first line it cites and ending on the last
   force     force terms and classes agree with reference/lexicon.md, an
-            imperative stands at an opening, no rule is filed below its
+            imperative stands at an opening and is not an item completing a
+            lead-in that has force of its own, no rule is filed below its
             strongest term, and no sentence opened by or holding a forced
             term is filed under Not rules
   flags     "(collective)" and "(unspecified)" are set exactly where the
@@ -17,7 +18,8 @@ text. Eight gates run on each register:
   status    each status follows from the Owner, Evidence and When cells
   tally     the seven counts follow from the Register and Not rules sections
   coverage  every letter and digit of the input sits inside a Rule or
-            Not-rules quotation, and no text is quoted as both
+            Not-rules quotation, no text is quoted as both, and no lead-in
+            (an entry ending in a colon) stands alone unless headings follow it
   scope     Addressee, Evidence and When quote only lines the row's Rule
             quotes; only Owner may come from another sentence
 
@@ -887,7 +889,8 @@ def gate_trace(reg, lines, errs, traced):
         traced[q.key()] = bool(tight)
         span = "L%d" % q.start if q.start == q.end else "L%d-L%d" % (q.start, q.end)
         if not occ:
-            errs.append("%s: %s is not on %s" % (label, q.show(), span))
+            errs.append("%s: %s is not on %s, which reads: '%s'"
+                        % (label, q.show(), span, clip(lines[q.start - 1].strip(), 90)))
         elif not tight:
             got = [p[0] for p in pos[occ[0]:occ[0] + len(q.norm)] if p is not None]
             real = "L%d" % got[0] if got[0] == got[-1] else "L%d-L%d" % (got[0], got[-1])
@@ -930,6 +933,9 @@ def gate_force(reg, errs):
             elif not any(p in sent or p in clause for p in at):
                 errs.append("%s: Force %s does not stand at an opening (a sentence start, a list item, "
                             "or after a comma, semicolon or colon)" % (r.label, shown))
+            elif all(completes_lead_in(r.rule.quotes, starts, p) for p in at):
+                errs.append("%s: Force %s opens an item whose lead-in carries its own force term; the "
+                            "item completes the lead-in and takes that force" % (r.label, shown))
         best = None
         for p, _, term in hits:
             lcls, _, forced = LEX.terms[term]
@@ -967,6 +973,15 @@ def gate_force(reg, errs):
                 errs.append("%s: holds the forced term %s%s%s; its sentence is a rule, not '%s'"
                             % (r.label, LQ, text[p:e], RQ, show_filed(r.filed)))
                 break
+
+
+def completes_lead_in(quotes, starts, pos):
+    """True when pos lies in a quotation that follows a lead-in holding a lexicon force term."""
+    idx = max(i for i, s in enumerate(starts) if s <= pos)
+    for q in quotes[:idx]:
+        if q.norm.rstrip().endswith(":") and scan_terms(q.norm):
+            return True
+    return False
 
 
 def show_filed(f):
@@ -1118,6 +1133,32 @@ def gate_coverage(reg, lines, errs):
                          and (ln, col) in cov["notrules"], lambda col: not s[col].isspace()):
             errs.append("input L%d: quoted both by %s and by %s: '%s'"
                         % (ln, cov["register"][(ln, a)], cov["notrules"][(ln, a)], clip(s[a:b + 1])))
+
+
+    gate_leadins(reg, lines, errs)
+
+
+def gate_leadins(reg, lines, errs):
+    """A lead-in (an entry ending in a colon) never stands alone, unless it heads subsections."""
+    heads = set()
+    for r in reg.nrows:
+        if r.ok and r.text.ok and r.filed and r.filed[0] == "heading":
+            heads.update(q.start for q in r.text.quotes)
+    entries = [(r.label, r.rule, None) for r in reg.rrows if r.ok and r.rule.ok]
+    entries += [(r.label, r.text, r.filed) for r in reg.nrows if r.ok and r.text.ok]
+    for label, cell, filed in entries:
+        if len(cell.quotes) != 1 or (filed and filed[0] == "heading"):
+            continue
+        q = cell.quotes[0]
+        if not q.norm.rstrip().endswith(":"):
+            continue
+        nxt = q.end + 1
+        while nxt <= len(lines) and not lines[nxt - 1].strip():
+            nxt += 1
+        if nxt in heads:
+            continue
+        errs.append("%s: %s is a lead-in quoted on its own; quote it with each of its items"
+                    % (label, q.show()))
 
 
 def runs(s, hit, counts):
